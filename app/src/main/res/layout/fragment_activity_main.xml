@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".ActivityMainFragment">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_agregar"
+        android:text="@string/ic_save"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/ic_save"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.AppCompat.ActionBar.TabView"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_editar"
+        android:text="@string/ic_update"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/ic_search"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.AppCompat.ActionBar.TabView"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_venta"
+        android:text="@string/realizar_venta"
+        android:textColor="@color/black"
+        android:drawableTop="@drawable/ic_cart"
+        android:backgroundTint="@color/white"
+        style="@style/Widget.AppCompat.ActionBar.TabView"/>
+
+
+</LinearLayout>

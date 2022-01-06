@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/ll_1"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:padding="5dp">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/et_id"
+            android:hint="@string/et_id"
+            android:textAlignment="center"
+            android:inputType="number"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_scanner"
+            android:src="@drawable/ic_camera"
+            android:contentDescription="@string/ic_save"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_1"
+        android:layout_marginHorizontal="20dp"
+        android:hint="@string/et_nombre"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_2"
+        android:orientation="horizontal"
+        android:layout_below="@id/et_nombre"
+        android:layout_margin="20dp"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/et_precio"
+            android:layout_margin="5dp"
+            android:hint="@string/et_precio"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/et_cantidad"
+            android:hint="@string/et_cantidad"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#668A7878"
+        android:hint="@string/et_descripcion"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_descripcion"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="30dp"
+        android:contentDescription="@string/ic_save"
+        android:src="@drawable/ic_save" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_agregar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/ic_save"
+        android:src="@drawable/ic_search" />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ll_1"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:text="Flash" />
+
+
+</RelativeLayout>

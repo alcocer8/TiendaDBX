@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Tienda BDX</string>
+
+    //facebook
+    <string name="facebook_app_id">3114461208785978</string>
+    <string name="fb_login_protocol_scheme">fb3114461208785978</string>
+
+    //Menu bar
+    <string name="ic_save">Guardar</string>
+    <string name="ic_update">Actualizar</string>
+    <string name="ic_delete">Eliminar</string>
+    <string name="ic_search">Buscar</string>
+    <string name="menu_lista">Lista de Acciones</string>
+
+    //Activity main
+    <string name="bienvenida">Bienvenido</string>
+    <string name="productos_disponibles">Productos Disponibles</string>
+    <string name="realizar_venta">Realizar Venta</string>
+    //Activity_crud
+    <string name="et_id">ID</string>
+    <string name="et_nombre">Nombre Articulo</string>
+    <string name="et_precio">$ Precio Articulo</string>
+    <string name="et_cantidad">Cantidad</string>
+    <string name="et_descripcion">Descripcion</string>
+
+    //Activity login
+    <string name="tv_iniciar_sesion">Inicia Sesion</string>
+    <string name="et_correo">Tu correo</string>
+    <string name="btn_google">Google</string>
+    <string name="btn_facebook">Facebook</string>
+
+    //Fragment Registro
+    <string name="tv_registro">Ingresa tus datos</string>
+    <string name="et_password">Contraseña</string>
+    <string name="btn_registro">Registrar</string>
+
+    <string name="menu_registro"> Registro con Email</string>
+    <string name="menu_login">Cerrar Sesion</string>
+
+    //item
+    <string name="item_producto">Producto: </string>
+    <string name="item_precio">Precio: $</string>
+    <string name="item_coidgo">Codigo: </string>
+    <string name="item_cantidad">Cantidad: </string>
+    <string name="item_btn_eliminar">Eliminar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1097651277272",
+    "project_id": "tiendabdx",
+    "storage_bucket": "tiendabdx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097651277272:android:8dc1042f2bd97d672276ad",
+        "android_client_info": {
+          "package_name": "com.example.tiendadbx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097651277272-vn9a1ec69msh5brfvanjj7jvmo743aod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tiendadbx",
+            "certificate_hash": "edbf9cfd67e646236e98f10e7fb6babe7f30de5c"
+          }
+        },
+        {
+          "client_id": "1097651277272-98cnvh1n0ecirmimbh68hoemlb2brvo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARBU1itWurGv3GcZD7r0xbXK0N38Qqyhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097651277272-98cnvh1n0ecirmimbh68hoemlb2brvo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

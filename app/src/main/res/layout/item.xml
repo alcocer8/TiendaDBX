@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:paddingStart="?attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?attr/listPreferredItemPaddingEnd">
+
+    <TextView
+        android:id="@+id/item_productoM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/item_producto"
+        android:textAlignment="center"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textStyle="bold" />
+
+    <TextView android:id="@+id/item_cantidadM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="@string/item_cantidad"
+        android:layout_below="@id/item_productoM"
+        android:textAppearance="?attr/textAppearanceListItem"/>
+
+
+</RelativeLayout>

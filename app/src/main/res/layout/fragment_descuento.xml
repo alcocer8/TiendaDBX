@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescuentoFragment">
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Total a pagar: $"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_1"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tv_total">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/et_dinero"
+            android:hint="Cantidad recibida: $"
+            android:layout_below="@+id/tv_total"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_cambio"
+            android:text="Cambio: $"
+            android:layout_below="@id/et_dinero"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_pagar"
+        android:text="Pagar"
+        android:layout_below="@id/ll_1"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_calculo"
+        android:text="Calcular"
+        android:layout_below="@id/btn_pagar"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
